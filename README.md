@@ -36,3 +36,6 @@ https://data.giss.nasa.gov/gistemp/graphs/graph_data/Global_Mean_Estimates_based
 Original source:
 https://climate.nasa.gov/vital-signs/global-temperature/
 
+# Prompting Strategies
+
+
