@@ -1,1 +1,65 @@
 ## Solutions – Ask for multiple solutions
+**Alternative approaches**
+Prompt-1:
+I want to explore something with multiple solutions and problems. For example, I know there can be different functions in Python to calculate the mean of a list of numbers. First please generate a list of 20 random numbers. Then using those numbers, please show me 3 different Python functions for calculating the mean of that number list. I'd like to see the functions ranked from least to most efficient.
+
+ChatGPT:
+Certainly! To begin, let's generate a list of 20 random numbers. We'll use Python's `random` library for this.
+
+
+import random
+
+# Generate 20 random numbers between 1 and 100
+random_numbers = [random.randint(1, 100) for _ in range(20)]
+
+print("List of 20 random numbers:", random_numbers)
+
+
+Once you've run this code snippet, you should see a list of 20 random numbers. We'll use this list in the following examples.
+
+Next, let's move on to the three Python functions to calculate the mean of this list of numbers, ranked from least to most efficient.
+
+Least Efficient: Manual Iteration
+Here, we manually loop through the list to find the sum and then divide by the number of elements.
+
+
+def manual_mean(numbers):
+    total = 0
+    for number in numbers:
+        total += number
+    return total / len(numbers)
+
+print("Manual mean:", manual_mean(random_numbers))
+
+
+Moderately Efficient: Using 'sum()' and 'len()'
+This approach uses Python's built-in 'sum()' and 'len()' functions to achieve the same result but in a more Pythonic way.
+
+
+def builtin_mean(numbers):
+    return sum(numbers) / len(numbers)
+
+print("Built-in mean:", builtin_mean(random_numbers))
+
+
+Most Efficient: Using NumPy
+Using NumPy's `mean()` function is the most efficient way when dealing with large datasets, as NumPy is optimized for numerical calculations.
+
+First, install NumPy if you haven't already:
+
+
+pip install numpy
+
+
+Then, run this code:
+
+
+import numpy as np
+
+def numpy_mean(numbers):
+    return np.mean(numbers)
+
+print("NumPy mean:", numpy_mean(random_numbers))
+
+
+Each method will give you the same result, but their efficiency varies. The NumPy approach is generally the fastest, especially for large datasets, followed by the built-in `sum()` and `len()` methods. The manual loop is typically the least efficient.
