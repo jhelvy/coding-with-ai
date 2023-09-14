@@ -1,1 +1,36 @@
+## Three approaches for prompting:
+1. Envision ChatGPT as your partner.
+2. Imagine you are speaking with a colleague.
+3. Give thought to providing detailed prommpts.
 
+---
+## Formatting tips:
+1. Use bullet points to list specific items or ideas.
+		– This will help the AI to know a sequence to follow.
+2. Use markdown for inline formatting. (ChatGPT writes in MD.)
+    – Use bold for emphasis.
+			i. **text**
+		– Use italics for emphasis or to indicate titles.
+			i. *text*
+		– Use strikethrough to indicate something that should not be included.
+			i. ~text~
+		– Use > to indicate blockquotes.
+			i. >text
+3. Use code blocks to indicate specific language or code.
+		– Example: "Write a tutorial on how to set up a basic website using HTML and CSS. Include <html>, <head>, and <body>tags in the code examples."
+``` { code } ```
+
+---
+## General guidelines:
+1. Tell ChatGPT the role you want it to fill.
+2. Clearly state the topic.
+3. Provide context and background information.
+    – I am looking to understand how much time people spend on an average weekday commuting from home to work.
+4. Avoid ambiguity and overly descriptive language.
+    – Give me a list of 10 US cities with the most beautiful commute.
+5. Use direct language.
+    – Give me a list of 10 US cities with average commute times of more than 60 minutes.
+6. Chunk the prompt into conversive sentences rather than directions.
+    – Recall the story 'Moby Dick'. List each character and write a 5-7 sentence character analysis of each one. Include information that captures their appearance and personality.
+
+---
