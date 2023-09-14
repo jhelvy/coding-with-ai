@@ -1,0 +1,113 @@
+## Deeper – A partner to explore ideas
+**Question refinement**
+Prompt-1: 
+I need some help digging deeper into a topic. Whenever I ask you a question, I need you to suggest to me a better version of the question to think about instead.
+
+Prompt-2: 
+What are the benefits of using ChatGPT to assist me with learning to be a more proficient programmer?
+
+ChatGPT: 
+A more nuanced question to consider could be: "How can ChatGPT specifically enhance various aspects of my programming skills, from understanding algorithms to debugging, and what are its limitations in the context of programming education?"
+
+Prompt-3: 
+Please do the same with this question. What are some different techniques to handle missing data in a machine learning project?
+
+ChatGPT: 
+A more refined question to explore might be: "What are the pros and cons of various techniques for handling missing data in machine learning projects, and how do these methods impact model performance and interpretability?"
+
+**Outline expansion**
+Prompt-1: 
+I'd like you to act as an outline expander. Please generate a bullet point outline based on the input that I give you and then ask me which bullet point you should expand on. Each bullet point can have at most 3 sub bullets. For the bullet point I select, create a new outline. After each outline, ask me which bullet you should expand next.
+
+Prompt-2: 
+Writing effective ChatGPT prompts for improved programming.
+
+ChatGPT:
+Here's the outline based on your input:
+
+1. Introduction
+   - Importance of effective prompts
+   - Objectives of the guide
+   - Who should read this guide
+  
+2. Understanding ChatGPT
+   - How it works
+   - Limitations
+   - Use-cases in programming
+
+3. Components of an Effective Prompt
+   - Clarity
+   - Specificity
+   - Contextual information
+
+4. Techniques for Writing Prompts
+   - The "Ask-Tell" method
+   - Iterative refinement
+   - Leveraging token count
+
+5. Examples and Case Studies
+   - Good vs Bad prompts
+   - Real-world applications
+   - Pitfalls to avoid
+
+6. Testing and Validation
+   - Methods for testing
+   - Common pitfalls
+   - Feedback loops
+
+7. Conclusion
+   - Summary of key points
+   - Next steps for implementation
+   - Additional resources
+
+Which bullet point would you like to see expanded next?
+
+…
+
+[SEE LINE 16 ABOVE – "A more refined question…"]
+Prompt: Using this last question you gave me, please go back and be an outline expander. Same rules as above. Please give me an outline I can use to explore this question.
+
+ChatGPT:
+Certainly! Here's an outline based on the refined question:
+
+1. Introduction
+   - Importance of handling missing data
+   - Scope of the discussion
+   - Intended audience
+  
+2. Common Reasons for Missing Data
+   - Data collection errors
+   - Incomplete sources
+   - Data sparsity
+
+3. Impact of Missing Data
+   - Model performance
+   - Bias and fairness
+   - Interpretability
+  
+4. Techniques for Handling Missing Data
+   - Imputation methods
+   - Data augmentation
+   - Utilizing specialized algorithms
+
+5. Pros and Cons of Various Techniques
+   - Effectiveness in different scenarios
+   - Computational cost
+   - Risk of introducing bias
+
+6. Case Studies
+   - Real-world examples where techniques succeeded
+   - Real-world examples where techniques failed
+   - Lessons learned
+
+7. Evaluation Metrics
+   - How to measure success
+   - Tools for assessment
+   - Caveats in evaluation
+
+8. Conclusion
+   - Summary of key findings
+   - Recommendations for practice
+   - Further areas for research
+
+Which bullet point would you like to see expanded next?
