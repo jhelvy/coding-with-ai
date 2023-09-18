@@ -1,3 +1,8 @@
+# Links
+
+GW Coders: https://gwcoders.github.io/
+
+Chat GPT: https://chat.openai.com/
 
 # Outline
 
