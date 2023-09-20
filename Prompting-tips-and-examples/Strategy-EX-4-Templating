@@ -1,0 +1,22 @@
+Often times you can provide a template and chatGPT will follow it. Example:
+
+You are an expert course designer and extensive experience developing college courses. We will co-design a course on using python to analyze data, assuming that students are total beginners to programming and using python. Provide an outline of the course syllabus using the following template:
+
+---
+
+# Course title
+$course_title
+
+# Course abstract
+$course_abstract
+
+# Learning objectives
+$learning_objectives
+
+# Grading
+$grading
+
+# Schedule of topics
+#schedule_of_topics
+---
+This will generate a syllabus with each item in the $ section completed by chatGPT.
