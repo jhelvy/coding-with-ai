@@ -83,5 +83,6 @@ $grading
 ---
 ```
 
+[Link to chat example](https://chat.openai.com/share/496e461b-b6ff-4c10-b715-7228c89ab280)
 This will generate a syllabus with each item in the `$` section completed by chatGPT.
 
