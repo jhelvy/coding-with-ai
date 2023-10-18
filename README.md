@@ -4,31 +4,13 @@ GW Coders: https://gwcoders.github.io/
 
 Chat GPT: https://chat.openai.com/
 
-# Outline
+# Summary
 
-- [5 min.] Welcome and introductions [Jason]
-- [10 min.] What is Generative Artificial Intelligence (GAI) and how it works
-Visualization of how GAI works.
-- [5 min.] Overview of Available GAI tools [Ryan]
-Current
-- Microsoft Co-pilot [Describe - Ryan]
-- OpenAI ChatChatGPT, Free [Justine]
-- OpenAI ChatGPT4, Paid [John]
-- Google Bard
-- IDE integration
-- [30 min.] Activity
-- [10 min.] Tips for prompting [Jason]
-- [10 min.] Pros and cons of strategies [Justine]
-- Comparisons
-- Limitations
-- Ways to improve
-- Ethics
-- Using in class vs work vs side-projects
-- [15 min.] Q&A [everyone]
+This repo contains several examples of prompting strategies for using AI tools like ChatGPT to improve your coding capabilities. It remains a living document that we update from time to time for workshops or presentations, demos, etc.
 
 # Running example
 
-Task: Create a chart summarizing climate change (changing global temperatures over time)
+Challenge: Create a chart summarizing climate change (changing global temperatures over time). Can you work with different AI tools to write the code to complete this task?
 
 NASA data:
 
@@ -42,6 +24,14 @@ Original source:
 https://climate.nasa.gov/vital-signs/global-temperature/
 
 # Prompting Strategies
+
+## Take a Deep Breathe
+
+In [this paper](https://arxiv.org/pdf/2309.03409.pdf) published by Google, they explain that there is a phrase that systematically increases the accuracy in the answers (+71%) of their LLM (PaLM 2):
+
+> Take a deep breath and work on this problem step by step
+
+Often times just simply adding this simple phrase to the end of your prompts can produce better results.
 
 ## Go Deeper
 
